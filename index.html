@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pankaj Singh | Professional Portfolio</title>
+  <!-- Remix Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress"></div>
+
+  <!-- Loading Screen (Preloader) -->
+  <div id="preloader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- Animated Background Blobs -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Cursor Glow Effect -->
+  <div class="cursor-glow"></div>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="#home" class="logo">Pankaj.dev</a>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+          <i id="theme-icon" class="ri-moon-line"></i>
+        </button>
+        <a href="resume.png" class="btn btn-secondary" download="Pankaj_Singh_Resume.png" target="_blank">Resume</a>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle Menu">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h3>Welcome to my world</h3>
+          <h1>Hi, I'm <span class="typing-text"></span></h1>
+          <p>Aspiring Full Stack Developer and Mobile App Developer with strong foundational knowledge in modern web
+            technologies and mobile app development. Eager to apply acquired skills to build innovative projects.</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Hire Me <i class="ri-arrow-right-line"></i></a>
+            <a href="#projects" class="btn btn-secondary">View Work</a>
+          </div>
+        </div>
+        <div class="hero-img-container">
+          <div class="hero-img-card glass">
+            <img src="profile.jpg" alt="Pankaj Singh" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <h3>Crafting High-Performance Applications</h3>
+            <p>I am a highly motivated student pursuing my B.Tech in Information Technology. I build clean, robust, and
+              user-centric web and mobile platforms. My passion lies in solving challenging problems using modern
+              programming languages and web architectures.</p>
+            <p>I thrive in collaborative workspaces, developing freelance solutions, and continuously adapting to
+              emerging systems and technologies to improve performance and code scalability.</p>
+            <div class="about-stats reveal">
+              <div class="stat-card glass">
+                <div class="stat-number" data-target="10">0+</div>
+                <div class="stat-label">Projects Built</div>
+              </div>
+              <div class="stat-card glass">
+                <div class="stat-number" data-target="4">0+</div>
+                <div class="stat-label">Tech Certs</div>
+              </div>
+              <div class="stat-card glass">
+                <div class="stat-number" data-target="1">0+</div>
+                <div class="stat-label">Year Experience</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-details-card glass" style="padding: 30px; border-radius: 20px;">
+            <h3 style="margin-bottom: 20px; font-size: 1.4rem;">Personal Information</h3>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 16px;">
+              <li><strong style="color: var(--accent-cyan)">Degree:</strong> B.Tech (Information Technology)</li>
+              <li><strong style="color: var(--accent-cyan)">University:</strong> AKTU</li>
+              <li><strong style="color: var(--accent-cyan)">Location:</strong> Kushinagar, UP, India</li>
+              <li><strong style="color: var(--accent-cyan)">Email:</strong> pankajmall455@gmail.com</li>
+              <li><strong style="color: var(--accent-cyan)">Phone:</strong> +91-7398302396</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Technical Arsenal</h2>
+        <div class="skills-grid">
+          <div class="skill-card glass">
+            <i class="ri-code-s-slash-line skill-icon"></i>
+            <h4>Languages</h4>
+            <p style="margin-bottom: 16px; font-size: 0.95rem;">C, C++, Java, Python, JavaScript</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-progress="90"></div>
+            </div>
+          </div>
+          <div class="skill-card glass">
+            <i class="ri-html5-line skill-icon"></i>
+            <h4>Web Dev</h4>
+            <p style="margin-bottom: 16px; font-size: 0.95rem;">HTML, CSS, React.js, Node.js, Express.js</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-progress="85"></div>
+            </div>
+          </div>
+          <div class="skill-card glass">
+            <i class="ri-smartphone-line skill-icon"></i>
+            <h4>Mobile Dev</h4>
+            <p style="margin-bottom: 16px; font-size: 0.95rem;">React Native, Flutter, Java, Kotlin</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-progress="80"></div>
+            </div>
+          </div>
+          <div class="skill-card glass">
+            <i class="ri-database-2-line skill-icon"></i>
+            <h4>Databases</h4>
+            <p style="margin-bottom: 16px; font-size: 0.95rem;">MongoDB, MySQL</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-progress="75"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Selected Works</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card glass">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+                alt="Full Stack Web Applications" loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3>Full Stack Applications</h3>
+              <p>Developed end-to-end scalable web applications using React.js for frontend, Node.js & Express.js for
+                backend, and MongoDB for database management.</p>
+              <div class="project-links">
+                <a href="https://github.com/Pankajsingh7398" class="btn btn-primary" target="_blank">GitHub</a>
+                <a href="#" class="btn btn-secondary">Demo</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="project-card glass">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
+                alt="Freelancing Portfolio Website" loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3>Freelancing Portfolio</h3>
+              <p>Designed and developed a professional service platform and personal website for businesses to manage
+                bookings, profiles, and services.</p>
+              <div class="project-links">
+                <a href="https://rudrakshapvtmedia.in" class="btn btn-primary" target="_blank">Website</a>
+                <a href="https://github.com/Pankajsingh7398" class="btn btn-secondary" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="project-card glass">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=600&q=80"
+                alt="E-commerce Website" loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce Platform</h3>
+              <p>Contributed to building a responsive online shopping system with a smooth shopping cart experience and
+                catalog management.</p>
+              <div class="project-links">
+                <a href="https://esucceed.in" class="btn btn-primary" target="_blank">Website</a>
+                <a href="https://github.com/Pankajsingh7398" class="btn btn-secondary" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Timeline</h2>
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-content glass">
+              <span class="timeline-date">2024 — 2028 (Expected)</span>
+              <h3>B.Tech in Information Technology</h3>
+              <p class="timeline-company">AKTU</p>
+              <p>Acquiring knowledge in Algorithms, Software Systems, Data Structures, and emerging technologies.</p>
+            </div>
+          </div>
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-content glass">
+              <span class="timeline-date">2026 — PRESENT</span>
+              <h3>Freelance Web & Mobile Developer</h3>
+              <p class="timeline-company">Self Employed</p>
+              <p>Developing responsive client web applications and mobile frontends with React.js and React Native.</p>
+            </div>
+          </div>
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-content glass">
+              <span class="timeline-date">2024</span>
+              <h3>12th Grade CBSE</h3>
+              <p class="timeline-company">Central Board of Secondary Education</p>
+              <p>Completed higher secondary education with a focus on science and computer application.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-card glass">
+              <i class="ri-mail-line contact-icon"></i>
+              <div class="contact-details">
+                <h4>Email Me</h4>
+                <p>pankajmall455@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-card glass">
+              <i class="ri-map-pin-line contact-icon"></i>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Kushinagar, UP, India</p>
+              </div>
+            </div>
+            <div class="contact-card glass">
+              <i class="ri-phone-line contact-icon"></i>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>+91-7398302396</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-container glass">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="form-input" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-input" placeholder="Your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-input" placeholder="Your message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message
+                <i class="ri-send-plane-fill"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Pankaj Singh. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/Pankajsingh7398" class="social-link" target="_blank" aria-label="GitHub"><i
+            class="ri-github-fill"></i></a>
+        <a href="#" class="social-link" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+        <a href="mailto:pankajmall455@gmail.com" class="social-link" aria-label="Email"><i class="ri-mail-line"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to Top">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <!-- Success Notification Popup -->
+  <div id="success-popup" class="success-popup">
+    <i class="ri-checkbox-circle-fill" style="font-size: 1.5rem;"></i>
+    <span>Message Sent Successfully!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
