@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pankaj Singh | Full Stack MERN & Android App Developer Portfolio</title>
+  <meta name="description"
+    content="Pankaj Singh is a Full Stack MERN Stack & Android App Developer building scalable web and mobile applications. Portfolio showcasing projects, experience, and services.">
+  <meta name="keywords"
+    content="Pankaj Singh, Full Stack Developer, MERN Stack, Android App Developer, Web Developer Kushinagar, Mobile App Developer India, Freelance Developer">
+  <meta name="author" content="Pankaj Singh">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pankajsingh.dev/">
+  <meta property="og:title" content="Pankaj Singh | Full Stack & Android App Developer">
+  <meta property="og:description"
+    content="Portfolio of Pankaj Singh, specializing in React, Node.js, Express, MongoDB, Firebase, and Android App Development.">
+  <meta property="og:image" content="profile.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Pankaj Singh | Full Stack & Android App Developer">
+  <meta property="twitter:description"
+    content="Portfolio of Pankaj Singh, specializing in React, Node.js, Express, MongoDB, Firebase, and Android App Development.">
+  <meta property="twitter:image" content="profile.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="profile.jpg">
+
+  <!-- JSON-LD Structured Data Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pankaj Singh",
+    "jobTitle": "Full Stack Developer & Android App Developer",
+    "url": "https://pankajsingh.dev",
+    "sameAs": [
+      "https://github.com/Pankajsingh7398",
+      "https://linkedin.com/in/pankaj-s-aab0a0330/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kushinagar",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "India"
+    },
+    "description": "I build scalable web and mobile applications using React, Node.js, Express.js, MongoDB, Firebase, and React Native."
+  }
+  </script>
+
+  <!-- Remix Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress"></div>
+
+  <!-- Loading Screen (Preloader) -->
+  <div id="preloader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- Animated Background Blobs -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Cursor Glow Effect -->
+  <div class="cursor-glow"></div>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="#home" class="logo">Pankaj.dev</a>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+          <i id="theme-icon" class="ri-moon-line"></i>
+        </button>
+        <a href="resume.png" class="btn btn-secondary" download="Pankaj_Singh_Resume.png" target="_blank">Resume</a>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle Menu">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h3>Welcome to my world</h3>
+          <h1 class="hero-name">Pankaj Singh</h1>
+          <h2 class="hero-title"><span class="typing-text"></span></h2>
+          <p>I build scalable web and mobile applications using React, Node.js, Express.js, MongoDB, Firebase, and React
+            Native. Passionate about creating high-performance digital products and solving real-world problems.</p>
+
+          <div class="availability-badges">
+            <span class="badge glass"><i class="ri-map-pin-line"></i> Kushinagar, Uttar Pradesh, India</span>
+            <span class="badge glass badge-green"><span class="dot"></span> Open to Internships</span>
+            <span class="badge glass badge-green"><span class="dot"></span> Available for Freelance Projects</span>
+          </div>
+
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Hire Me <i class="ri-arrow-right-line"></i></a>
+            <a href="#projects" class="btn btn-secondary">View Work</a>
+            <a href="resume.png" class="btn btn-secondary" download="Pankaj_Singh_Resume.png" target="_blank"><i
+                class="ri-download-line"></i> Download Resume</a>
+            <a href="https://www.linkedin.com/in/pankaj-s-aab0a0330/" class="btn btn-secondary" target="_blank"><i
+                class="ri-linkedin-box-fill"></i> LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-img-container">
+          <div class="hero-img-card glass">
+            <img src="profile.jpg" alt="Pankaj Singh" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <h3>Crafting High-Performance Applications</h3>
+            <p>I am a B.Tech Information Technology student at AKTU with a strong interest in full-stack and mobile
+              application development. I enjoy building modern, responsive, and scalable applications using MERN
+              technologies and React Native. My focus is on creating real-world solutions with clean architecture,
+              intuitive user experiences, and optimized performance.</p>
+            <div class="about-stats reveal">
+              <div class="stat-card glass">
+                <div class="stat-number" data-target="10" data-suffix="+">0+</div>
+                <div class="stat-label">Projects Built</div>
+              </div>
+              <div class="stat-card glass">
+                <div class="stat-number" data-target="5" data-suffix="+">0+</div>
+                <div class="stat-label">Technologies Mastered</div>
+              </div>
+              <div class="stat-card glass">
+                <div class="stat-number" style="color: var(--accent-cyan); font-size: 2.2rem; font-weight: 800;">Open
+                </div>
+                <div class="stat-label">To Freelancing</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-details-card glass" style="padding: 30px; border-radius: 20px;">
+            <h3 style="margin-bottom: 20px; font-size: 1.4rem;">Personal Information</h3>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 16px;">
+              <li><strong style="color: var(--accent-cyan)">Degree:</strong> B.Tech (Information Technology)</li>
+              <li><strong style="color: var(--accent-cyan)">University:</strong> AKTU</li>
+              <li><strong style="color: var(--accent-cyan)">Location:</strong> Kushinagar, UP, India</li>
+              <li><strong style="color: var(--accent-cyan)">Email:</strong> pankajmall455@gmail.com</li>
+              <li><strong style="color: var(--accent-cyan)">Phone:</strong> +91-7398302396</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Technical Arsenal</h2>
+        <div class="skills-grid">
+          <!-- Frontend Card -->
+          <div class="skill-card glass">
+            <i class="ri-layout-line skill-icon"></i>
+            <h4>Frontend</h4>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info"><span>React.js</span><span>90%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-cyan" data-progress="90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Next.js</span><span>80%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-cyan" data-progress="80"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>JavaScript</span><span>92%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-cyan" data-progress="92"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>HTML5 / CSS3</span><span>95%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-cyan" data-progress="95"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Tailwind CSS</span><span>88%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-cyan" data-progress="88"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Card -->
+          <div class="skill-card glass">
+            <i class="ri-server-line skill-icon"></i>
+            <h4>Backend</h4>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info"><span>Node.js</span><span>88%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-purple" data-progress="88"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Express.js</span><span>85%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-purple" data-progress="85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>REST APIs</span><span>90%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-purple" data-progress="90"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Database Card -->
+          <div class="skill-card glass">
+            <i class="ri-database-2-line skill-icon"></i>
+            <h4>Database</h4>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info"><span>MongoDB</span><span>85%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-blue" data-progress="85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>MySQL</span><span>80%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-blue" data-progress="80"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Firebase</span><span>82%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-blue" data-progress="82"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile Card -->
+          <div class="skill-card glass">
+            <i class="ri-smartphone-line skill-icon"></i>
+            <h4>Mobile</h4>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info"><span>React Native</span><span>85%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-pink" data-progress="85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Android Studio</span><span>75%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-pink" data-progress="75"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Firebase</span><span>82%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill fill-pink" data-progress="82"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Selected Works</h2>
+
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="react">React</button>
+          <button class="filter-btn" data-filter="node">Node.js</button>
+          <button class="filter-btn" data-filter="html">HTML/CSS</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 2 -->
+          <div class="project-card glass" data-tech="html css">
+            <div class="project-img">
+              <img src="./assets/images/projects/rudraksh-pvt-media.png"
+                alt="Rudraksh Pvt Media Website"
+                loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3>Freelancing Portfolio</h3>
+              <p>Designed and developed a professional service platform and personal website for businesses to manage
+                bookings, profiles, and services.</p>
+
+              <div class="project-tech-badges">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Bootstrap</span>
+              </div>
+
+              <div class="project-features">
+                <h4>Key Features:</h4>
+                <ul>
+                  <li>Interactive Services Catalog</li>
+                  <li>Custom Styling & Animations</li>
+                  <li>Appointment Booking System</li>
+                </ul>
+              </div>
+
+              <div class="project-metrics">
+                <div class="metric-item">
+                  <span class="metric-val">8+</span>
+                  <span class="metric-lbl">Screens</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">6+</span>
+                  <span class="metric-lbl">Features</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">3+</span>
+                  <span class="metric-lbl">APIs Used</span>
+                </div>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/Pankajsingh7398" class="btn btn-secondary btn-sm" target="_blank"><i
+                    class="ri-github-fill"></i> GitHub</a>
+                <a href="https://rudrakshapvtmedia.in" class="btn btn-primary" target="_blank"><i
+                    class="ri-external-link-line"></i> Website</a>
+                <button class="btn btn-secondary btn-sm btn-details" data-project="portfolio"><i
+                    class="ri-information-line"></i> Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="project-card glass" data-tech="html css">
+            <div class="project-img">
+              <img src="./assets/images/projects/esucceed-website.png"
+                alt="ESucceed Study Abroad Consultancy Website"
+                loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3>Consultancy Website</h3>
+              <p>Developed a responsive educational consultancy platform for esucceed.in to help students find courses,
+                consulting services, and admission support.</p>
+
+              <div class="project-tech-badges">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+              </div>
+
+              <div class="project-features">
+                <h4>Key Features:</h4>
+                <ul>
+                  <li>Course & Country Search Guide</li>
+                  <li>Admission Inquiry Forms</li>
+                  <li>Interactive Consulting Services</li>
+                </ul>
+              </div>
+
+              <div class="project-metrics">
+                <div class="metric-item">
+                  <span class="metric-val">8+</span>
+                  <span class="metric-lbl">Screens</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">5+</span>
+                  <span class="metric-lbl">Features</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">2+</span>
+                  <span class="metric-lbl">APIs Used</span>
+                </div>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/Pankajsingh7398" class="btn btn-secondary btn-sm" target="_blank"><i
+                    class="ri-github-fill"></i> GitHub</a>
+                <a href="https://esucceed.in" class="btn btn-primary" target="_blank"><i
+                    class="ri-external-link-line"></i> Website</a>
+                <button class="btn btn-secondary btn-sm btn-details" data-project="consultancy"><i
+                    class="ri-information-line"></i> Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Project 4 (Quickbasket) -->
+          <div class="project-card glass" data-tech="react node mongo">
+            <div class="project-img">
+              <img src="./assets/images/projects/quickbasket.png"
+                alt="QuickBasket E-Commerce Platform"
+                loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3>Quickbasket</h3>
+              <p>A full-stack grocery & quick-commerce platform with real-time inventory, cart management, and order
+                tracking — powered by MongoDB as the database backbone.</p>
+
+              <div class="project-tech-badges">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express</span>
+                <span class="tech-badge">MongoDB</span>
+              </div>
+
+              <div class="project-features">
+                <h4>Key Features:</h4>
+                <ul>
+                  <li>Real-time cart management</li>
+                  <li>Secure payment integration</li>
+                  <li>Admin dashboard for products</li>
+                </ul>
+              </div>
+
+              <div class="project-metrics">
+                <div class="metric-item">
+                  <span class="metric-val">10+</span>
+                  <span class="metric-lbl">Screens</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">8+</span>
+                  <span class="metric-lbl">Features</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">6+</span>
+                  <span class="metric-lbl">APIs Used</span>
+                </div>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/Pankajsingh7398" class="btn btn-secondary btn-sm" target="_blank"><i
+                    class="ri-github-fill"></i> GitHub</a>
+                <a href="https://quickbasket-store.netlify.app/" class="btn btn-primary" target="_blank"><i
+                    class="ri-external-link-line"></i> Website</a>
+                <button class="btn btn-secondary btn-sm btn-details" data-project="quickbasket"><i
+                    class="ri-information-line"></i> Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Services I Offer</h2>
+        <div class="services-grid">
+          <div class="service-card glass">
+            <div class="service-icon"><i class="ri-global-line"></i></div>
+            <h3>Full Stack Web Development</h3>
+            <p>Build responsive, high-performance, and scalable web applications tailored to your business needs.</p>
+          </div>
+          <div class="service-card glass">
+            <div class="service-icon"><i class="ri-smartphone-line"></i></div>
+            <h3>Mobile App Development</h3>
+            <p>Develop native Android and cross-platform mobile apps with seamless performance and modern design.</p>
+          </div>
+          <div class="service-card glass">
+            <div class="service-icon"><i class="ri-shopping-bag-line"></i></div>
+            <h3>E-Commerce Solutions</h3>
+            <p>Create modern, secure online stores, marketplaces, and payment integrations to boost your sales.</p>
+          </div>
+          <div class="service-card glass">
+            <div class="service-icon"><i class="ri-settings-5-line"></i></div>
+            <h3>API Development & Integration</h3>
+            <p>Develop secure, well-documented REST APIs and connect your applications with third-party services.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Timeline</h2>
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-content glass">
+              <span class="timeline-date">2024 — 2028 (Expected)</span>
+              <h3>B.Tech in Information Technology</h3>
+              <p class="timeline-company">AKTU</p>
+              <p>Acquiring knowledge in Algorithms, Software Systems, Data Structures, and emerging technologies.</p>
+            </div>
+          </div>
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-content glass">
+              <span class="timeline-date">2026 — PRESENT</span>
+              <h3>Freelance Web & Mobile Developer</h3>
+              <p class="timeline-company">Self Employed</p>
+              <ul class="timeline-bullets">
+                <li>Developed responsive websites and web applications.</li>
+                <li>Built REST APIs and backend systems.</li>
+                <li>Designed modern user interfaces using React.</li>
+                <li>Developed mobile applications using React Native and Firebase.</li>
+                <li>Worked on personal and academic projects.</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-content glass">
+              <span class="timeline-date">2024</span>
+              <h3>12th Grade CBSE</h3>
+              <p class="timeline-company">Central Board of Secondary Education</p>
+              <p>Completed higher secondary education with a focus on science and computer application.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Client Feedback</h2>
+        <div class="testimonials-carousel">
+          <div class="testimonials-track-container">
+            <div class="testimonials-track">
+              <!-- Testimonial 1 -->
+              <div class="testimonial-card glass">
+                <p class="testimonial-text">"Pankaj delivered a beautiful, responsive portfolio website on time. His
+                  understanding of front-end technologies and layouts is exceptional. Highly recommended for freelance
+                  services!"</p>
+                <div class="testimonial-author">
+                  <div class="author-info">
+                    <h4>Rudraksha Pvt Media</h4>
+                    <span>Client | Web Platform</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Testimonial 2 -->
+              <div class="testimonial-card glass">
+                <p class="testimonial-text">"Professional, proactive, and technically skilled. Pankaj helped build out
+                  features for our web services that exceeded our expectations. Great collaboration!"</p>
+                <div class="testimonial-author">
+                  <div class="author-info">
+                    <h4>E-Succeed In</h4>
+                    <span>Client | E-Commerce Platform</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-card glass">
+              <i class="ri-mail-line contact-icon"></i>
+              <div class="contact-details">
+                <h4>Email Me</h4>
+                <p>pankajmall455@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-card glass">
+              <i class="ri-map-pin-line contact-icon"></i>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Kushinagar, UP, India</p>
+              </div>
+            </div>
+            <div class="contact-card glass">
+              <i class="ri-phone-line contact-icon"></i>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>+91-7398302396</p>
+              </div>
+            </div>
+
+            <ul class="contact-availability">
+              <li><i class="ri-checkbox-circle-fill"></i> Internships</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Freelance Projects</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Part-Time Roles</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Full-Time Opportunities</li>
+            </ul>
+          </div>
+          <div class="contact-form-container glass">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="form-input" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-input" placeholder="Your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-input" placeholder="Your message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message
+                <i class="ri-send-plane-fill"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-cta">
+        <h2>Let's Build Something Amazing Together</h2>
+        <p>Seeking a passionate Full Stack & Mobile developer to bring your ideas to life? Let's connect.</p>
+        <div class="footer-btns">
+          <a href="#contact" class="btn btn-primary">Start a Project</a>
+          <a href="resume.png" class="btn btn-secondary" download="Pankaj_Singh_Resume.png" target="_blank"><i
+              class="ri-download-line"></i> Download Resume</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Pankaj Singh. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://github.com/Pankajsingh7398" class="social-link" target="_blank" aria-label="GitHub"><i
+              class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/pankaj-s-aab0a0330/" class="social-link" aria-label="LinkedIn"
+            target="_blank"><i class="ri-linkedin-fill"></i></a>
+          <a href="mailto:pankajmall455@gmail.com" class="social-link" aria-label="Email"><i
+              class="ri-mail-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to Top">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <!-- Success Notification Popup -->
+  <div id="success-popup" class="success-popup">
+    <i class="ri-checkbox-circle-fill" style="font-size: 1.5rem;"></i>
+    <span>Message Sent Successfully!</span>
+  </div>
+
+  <!-- Project Detail Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content glass">
+      <button class="modal-close" aria-label="Close Modal"><i class="ri-close-line"></i></button>
+      <div class="modal-body">
+        <!-- Content injected dynamically via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
